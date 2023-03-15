@@ -13,3 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Admin 
+
+Route::get('/admin/panel', 'App\Http\Controllers\Admin\PanelController@index');
