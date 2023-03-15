@@ -9,6 +9,6 @@ class PanelController extends Controller
 {
     public function index()
     {
-        return 'admin pannnnnnnnnel';
+        return view('Admin.master');
     }
 }
